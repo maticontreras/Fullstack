@@ -447,7 +447,7 @@ article:after,
   font-size: 125%; }
 
 .word-limit {
-  height: 40px;
+  height: 64px;
   line-height: 20px; }
 
 /* ==================  title element ================ */
@@ -1716,7 +1716,7 @@ article:after,
 .slider-main .owl-next {
   right: 0; }
 .slider-main .item-slide {
-  height: 325px; }
+  /* height: auto; */ }
   .slider-main .item-slide img {
     min-width: 100%;
     min-height: 100%;
@@ -1777,7 +1777,6 @@ article:after,
   .itemside .img-bg {
     -o-object-fit: contain;
        object-fit: contain;
-    position: absolute;
     right: 0;
     bottom: 0;
     max-height: 100px;
